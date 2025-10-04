@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #506bff; /* Memberi background biru muda pada header */
+    color: #fff;
+    padding: 5px 40px; /* Menambah padding kiri dan kanan */
+    text-align: center;
+    display: flex; /* Mengubah header menjadi flexbox */
+    justify-content: space-between; /* Menyebarkan elemen di header */
+    align-items: center; /* Memposisikan elemen di tengah secara vertikal */
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0px 10px;
+    border-right: 1px dotted #f9f9f9;
+    padding-right: 20px;
+}
+
+header nav ul li a:hover {
+    font-weight: bold;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+#about {
+    border-bottom: #ececec 2px solid; /* Membuat border bawah pada section about */
+}
+
+#about p{
+    font-size: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+#about h2 { /* Mengatur judul section about */
+    margin-bottom: 40px;
+}
+
+.menu-item{ /* Membuat menu-item menjadi flexbox */
+    display: flex; 
+    justify-content: space-between; /* Menyebarkan elemen di menu-item */
+    align-items: center;
+    margin: 50px 0;
+    background-color: #6199fb;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.menu-item h3, .menu-item p { /* Mengatur teks pada menu-item */
+    text-align: left;
+    align-items: center;
+    color: #fff;
+    margin: 0px 50px;
+}
+
+.menu-item img {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+#hours {
+    background-color: #ececec;
+    padding: 50px 0;
+}
+
+#hours p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+
+footer {
+    background-color: #506bff; /* Memberi background biru muda pada footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
